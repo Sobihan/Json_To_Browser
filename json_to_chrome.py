@@ -5,11 +5,10 @@ from tkinter import *
 # coding: utf-8
 
 def open_url(content):
-    if (content == None)
+    if (content == None):
         exit()
     url = []
     split = content.split("\"")
-    print(split)
     for i  in range(len(split)):
         if split[i] == 'url_de_base':
             url.append(split[i + 2])
@@ -19,7 +18,6 @@ def open_url(content):
     chrome_path = "open -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome %s"
     for i  in range(len(url)):
         webbrowser.get(chrome_path).open(url[i])
-        print(url[i])
 
 my_string = None
 
