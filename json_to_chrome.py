@@ -28,7 +28,7 @@ def get_entry():
 
 fenetre = Tk()
 string = StringVar()
-label = Label(fenetre, text="Hello World")
+label = Label(fenetre, text="Paste your JSON")
 label.pack()
 value = StringVar() 
 value.set("texte par défaut")
