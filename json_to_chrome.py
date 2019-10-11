@@ -4,6 +4,7 @@ from os import path
 from tkinter import * 
 # coding: utf-8
 
+# TODO: 
 def open_url(content):
     if (content == None):
         return (False)
@@ -23,21 +24,23 @@ def open_url(content):
 my_string = None
 
 def get_entry():
+    """ To get the string of the entry"""
     global my_string, fenetre
     my_string = entree.get()
     fenetre.quit()
-
-fenetre = Tk()
-string = StringVar()
-label = Label(fenetre, text="Paste your JSON")
-label.pack()
-value = StringVar() 
-value.set("texte par défaut")
-entree = Entry(fenetre, textvariable=string, width=30)
-entree.pack()
-bouton=Button(fenetre, text="Submit", command=get_entry)
-bouton.pack()
-fenetre.mainloop()
+######################### Tkinter ##########################
+fenetre = Tk()                                             #
+string = StringVar()                                       #
+label = Label(fenetre, text="Paste your JSON")             #
+label.pack()                                               #
+value = StringVar()                                        #
+value.set("texte par défaut")                              #
+entree = Entry(fenetre, textvariable=string, width=30)     #
+entree.pack()                                              #
+bouton=Button(fenetre, text="Submit", command=get_entry)   #
+bouton.pack()                                              #
+fenetre.mainloop()                                         #
+############################################################
 if (not open_url(str(my_string))):
     print("There is a problem")
     exit()
