@@ -4,15 +4,6 @@ from os import path
 from tkinter import * 
 # coding: utf-8
 
-
-def read_file(path):
-    file = open(path, "r").read()
-    return file.split("\n")
-
-def write_in_file(content, file):   
-    file.write(content)
-    file.write('\n')
-
 def open_url(content):
     if (content == None)
         exit()
