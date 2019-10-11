@@ -6,7 +6,7 @@ from tkinter import *
 
 def open_url(content):
     if (content == None):
-        exit()
+        return (False)
     url = []
     split = content.split("\"")
     for i  in range(len(split)):
@@ -14,10 +14,11 @@ def open_url(content):
             url.append(split[i + 2])
     if (len(url) <= 0):
         print("[DEBUG] There is no url [DEBUG]")
-        exit()
+        return (False)
     chrome_path = "open -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome %s"
     for i  in range(len(url)):
         webbrowser.get(chrome_path).open(url[i])
+    return (True)
 
 my_string = None
 
@@ -37,4 +38,8 @@ entree.pack()
 bouton=Button(fenetre, text="Submit", command=get_entry)
 bouton.pack()
 fenetre.mainloop()
-open_url(str(my_string))
+if (not open_url(str(my_string))):
+    print("There is a problem")
+    exit()
+else:
+    print("There is no problem")
