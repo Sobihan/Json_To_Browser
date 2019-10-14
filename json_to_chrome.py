@@ -28,6 +28,10 @@ def get_entry():
     global my_string, fenetre
     my_string = entree.get()
     fenetre.quit()
+
+def onclick(Event):
+    get_entry()
+
 ######################### Tkinter ##########################
 fenetre = Tk()                                             #
 string = StringVar()                                       #
@@ -37,6 +41,7 @@ value = StringVar()                                        #
 value.set("texte par défaut")                              #
 entree = Entry(fenetre, textvariable=string, width=30)     #
 entree.pack()                                              #
+fenetre.bind('<Return>', onclick)
 bouton=Button(fenetre, text="Submit", command=get_entry)   #
 bouton.pack()                                              #
 fenetre.mainloop()                                         #
