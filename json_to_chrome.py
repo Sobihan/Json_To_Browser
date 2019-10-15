@@ -27,25 +27,30 @@ def get_entry():
     """ To get the string of the entry"""
     global my_string, fenetre
     my_string = entree.get()
+    fenetre.configure(background = 'grey')
     fenetre.quit()
 
 def onclick(Event):
     get_entry()
 
 ######################### Tkinter ##########################
-fenetre = Tk()                                             #
+fenetre = Tk()                                         #
+fenetre.configure(background = 'black')
+canvas = Canvas(fenetre, width = 500, height = 400, bd = 0, bg = "black")
+canvas.pack(padx = 10, pady = 10)
 string = StringVar()                                       #
-label = Label(fenetre, text="Paste your JSON")             #
+label = Label(canvas, text="Paste your JSON", bg = "black", fg = "white")             #
 label.pack()                                               #
 value = StringVar()                                        #
 value.set("texte par défaut")                              #
-entree = Entry(fenetre, textvariable=string, width=30)     #
-entree.pack()                                              #
+entree = Entry(canvas, textvariable=string, width=20, fg = 'green')     #
+entree.pack(padx = 10, pady = 10)                                              #
 fenetre.bind('<Return>', onclick)
-bouton=Button(fenetre, text="Submit", command=get_entry)   #
+bouton=Button(canvas, text = "Submit", command = get_entry, fg = 'red')   #
 bouton.pack()                                              #
 fenetre.mainloop()                                         #
 ############################################################
+
 if (not open_url(str(my_string))):
     print("There is a problem")
     exit()
