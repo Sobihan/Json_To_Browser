@@ -22,34 +22,35 @@ def open_url(content):
     return (True)
 
 my_string = None
+color = 'black'
+fcolor = 'white'
 
 def get_entry():
     """ To get the string of the entry"""
     global my_string, fenetre
     my_string = entree.get()
-    fenetre.configure(background = 'grey')
+    fenetre.configure(background = 'green')
     fenetre.quit()
 
 def onclick(Event):
     get_entry()
 
-######################### Tkinter ##########################
-fenetre = Tk()                                         #
-fenetre.configure(background = 'black')
-canvas = Canvas(fenetre, width = 500, height = 400, bd = 0, bg = "black")
-canvas.pack(padx = 10, pady = 10)
-string = StringVar()                                       #
-label = Label(canvas, text="Paste your JSON", bg = "black", fg = "white")             #
-label.pack()                                               #
-value = StringVar()                                        #
-value.set("texte par défaut")                              #
-entree = Entry(canvas, textvariable=string, width=20, fg = 'green')     #
-entree.pack(padx = 10, pady = 10)                                              #
-fenetre.bind('<Return>', onclick)
-bouton=Button(canvas, text = "Submit", command = get_entry, fg = 'red')   #
-bouton.pack()                                              #
-fenetre.mainloop()                                         #
-############################################################
+##################################### Tkinter ########################################
+fenetre = Tk()                                                                       #
+fenetre.title("Json To Chrome by Soso")                                              #
+fenetre.configure(background = color)                                                #
+canvas = Canvas(fenetre, width = 500, height = 400, bd = 0, bg = color)              #
+canvas.pack(padx = 10, pady = 10)                                                    #
+string = StringVar()                                                                 #
+label = Label(canvas, text= "Paste your JSON", bg = color, fg = fcolor)              #
+label.pack()                                                                         #
+entree = Entry(canvas, textvariable=string, width=20, fg = 'green')                  #
+entree.pack(padx = 10, pady = 10)                                                    #
+fenetre.bind('<Return>', onclick)                                                    #
+bouton = Button(canvas, text = "Submit", command = get_entry, fg = 'red')            #
+bouton.pack()                                                                        #
+fenetre.mainloop()                                                                   #
+######################################################################################
 
 if (not open_url(str(my_string))):
     print("There is a problem")
