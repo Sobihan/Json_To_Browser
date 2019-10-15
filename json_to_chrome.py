@@ -44,15 +44,15 @@ canvas.pack(padx = 10, pady = 10)                                               
 string = StringVar()                                                                 #
 label = Label(canvas, text= "Paste your JSON", bg = color, fg = fcolor)              #
 label.pack()                                                                         #
-entree = Entry(canvas, textvariable=string, width=20, fg = 'green')                  #
+entree = Entry(canvas, textvariable=string, width=20, fg = 'black', bg = 'grey')                  #
 entree.pack(padx = 10, pady = 10)                                                    #
 fenetre.bind('<Return>', onclick)                                                    #
-bouton = Button(canvas, text = "Submit", command = get_entry, fg = 'red')            #
+bouton = Button(canvas, text = "Submit", command = get_entry, fg = 'grey', bg = 'black')            #
 bouton.pack()                                                                        #
 fenetre.mainloop()                                                                   #
 ######################################################################################
 
-if (not open_url(str(my_string))):
+if (not open_url(my_string)):
     print("There is a problem")
     exit()
 else:
