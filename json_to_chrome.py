@@ -4,15 +4,21 @@ from os import path
 from tkinter import * 
 # coding: utf-8
 
-# TODO: 
+my_string = None
+color = 'black'
+fcolor = 'white'
+
 def open_url(content):
     if (content == None):
         return (False)
     url = []
+    tmp = None
     split = content.split("\"")
     for i  in range(len(split)):
-        if split[i] == 'url_de_base':
-            url.append(split[i + 2])
+        if split[i] == 'url':
+            tmp = split[i + 2]
+            if not tmp in url:
+                url.append(tmp)
     if (len(url) <= 0):
         print("[DEBUG] There is no url [DEBUG]")
         return (False)
@@ -20,10 +26,6 @@ def open_url(content):
     for i  in range(len(url)):
         webbrowser.get(chrome_path).open(url[i])
     return (True)
-
-my_string = None
-color = 'black'
-fcolor = 'white'
 
 def get_entry():
     """ To get the string of the entry"""
@@ -44,7 +46,7 @@ canvas.pack(padx = 10, pady = 10)                                               
 string = StringVar()                                                                 #
 label = Label(canvas, text= "Paste your JSON", bg = color, fg = fcolor)              #
 label.pack()                                                                         #
-entree = Entry(canvas, textvariable=string, width=20, fg = 'black', bg = 'grey')                  #
+entree = Entry(canvas, textvariable=string, width=20, fg = 'black', bg = 'grey')     #
 entree.pack(padx = 10, pady = 10)                                                    #
 fenetre.bind('<Return>', onclick)                                                    #
 bouton = Button(canvas, text = "Submit", command = get_entry, fg = 'grey', bg = 'black')            #
@@ -54,6 +56,5 @@ fenetre.mainloop()                                                              
 
 if (not open_url(my_string)):
     print("There is a problem")
-    exit()
 else:
     print("There is no problem")
