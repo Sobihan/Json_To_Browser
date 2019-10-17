@@ -15,6 +15,8 @@ def open_url(content):
     tmp = None
     split = content.split("\"")
     for i  in range(len(split)):
+        if i + 2 >= len(split):
+            break
         if split[i] == 'url':
             tmp = split[i + 2]
             if not tmp in url:
