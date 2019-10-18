@@ -5,6 +5,8 @@ from tkinter import *
  
 # coding: utf-8
 
+# TODO: Faire une sorte d'interface pour les mises à jour ou faire automatiquement les mises à jour via github
+
 my_string = None
 color = 'black'
 fcolor = 'white'
@@ -53,6 +55,8 @@ entree.pack(padx = 10, pady = 10)                                               
 fenetre.bind('<Return>', onclick)                                                    #
 bouton = Button(canvas, text = "Submit", command = get_entry, fg = 'grey', bg = 'black')            #
 bouton.pack()                                                                        #
+version = Label(canvas, text = "Version: 2.1.3", bg = color, fg = fcolor)            #
+version.pack()
 fenetre.mainloop()                                                                   #
 ######################################################################################
 
