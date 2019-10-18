@@ -74,7 +74,7 @@ def _path_inject(paths):
     sys.path[:0] = paths
 
 
-_path_inject(['/Users/sobihanmahedran/Desktop/Python/Json_To_Chrome'])
+_path_inject(['/Users/sobihanmahedran/Desktop/Python/JsonToBrowser'])
 
 
 import re
@@ -126,7 +126,7 @@ def _run():
     exec(compile(source, script, 'exec'), globals(), globals())
 
 
-DEFAULT_SCRIPT='/Users/sobihanmahedran/Desktop/Python/Json_To_Chrome/json_to_browser.py'
+DEFAULT_SCRIPT='/Users/sobihanmahedran/Desktop/Python/JsonToBrowser/json_to_browser.py'
 SCRIPT_MAP={}
 try:
     _run()
