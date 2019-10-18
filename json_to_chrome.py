@@ -1,7 +1,8 @@
 #!/usr/local/bin/python3
-import webbrowser
+import webbrowser, validators
 from os import path
-from tkinter import * 
+from tkinter import *
+ 
 # coding: utf-8
 
 my_string = None
@@ -19,7 +20,7 @@ def open_url(content):
             break
         if split[i] == 'url':
             tmp = split[i + 2]
-            if not tmp in url:
+            if not tmp in url and validators.url(tmp) == True:
                 url.append(tmp)
     if (len(url) <= 0):
         print("[DEBUG] There is no url [DEBUG]")
