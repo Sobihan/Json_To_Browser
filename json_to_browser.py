@@ -43,7 +43,7 @@ def onclick(Event):
 
 ##################################### Tkinter ########################################
 fenetre = Tk()                                                                       #
-fenetre.title("Json To Chrome by Soso")                                              #
+fenetre.title("Json To Browser by Soso")                                              #
 fenetre.configure(background = color)                                                #
 canvas = Canvas(fenetre, width = 500, height = 400, bd = 0, bg = color)              #
 canvas.pack(padx = 10, pady = 10)                                                    #
