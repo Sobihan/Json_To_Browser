@@ -39,6 +39,7 @@ def get_entry():
         fenetre.configure(background = 'red')
     else:
         fenetre.configure(background = 'green')
+    entree.delete(first = 0, last=len(my_string))
 
 def onclick(Event):
     get_entry()
@@ -57,7 +58,7 @@ entree.pack(padx = 10, pady = 10)                                               
 fenetre.bind('<Return>', onclick)                                                    #
 bouton = Button(canvas, text = "Submit", command = get_entry, fg = 'grey', bg = 'black')            #
 bouton.pack()                                                                        #
-version = Label(canvas, text = "Version: 2.2.0", bg = color, fg = fcolor)            #
+version = Label(canvas, text = "Version: 2.2.1", bg = color, fg = fcolor)            #
 version.pack()
 fenetre.mainloop()                                                                   #
 ######################################################################################
