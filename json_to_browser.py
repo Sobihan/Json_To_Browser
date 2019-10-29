@@ -43,6 +43,8 @@ def open_url(content):
 def get_entry():
     """ To get the string of the entry"""
     global my_string, fenetre, label
+    label.configure(fg = 'orange', text = "Running...")
+    fenetre.update()
     my_string = entree.get()
     if (not open_url(my_string)):
         label.configure(fg = 'red', text = "Please try again")
@@ -65,9 +67,9 @@ label.pack()                                                                    
 entree = Entry(canvas, textvariable=string, width=20, fg = 'black', bg = 'grey')     #
 entree.pack(padx = 10, pady = 10)                                                    #
 fenetre.bind('<Return>', onclick)                                                    #
-bouton = Button(canvas, text = "Submit", command = get_entry, fg = 'grey', bg = 'black')            #
+bouton = Button(canvas, text = "Submit", command = get_entry, fg ='grey', bg='black')#
 bouton.pack()                                                                        #
-version = Label(canvas, text = "Version: 2.2.4", bg = color, fg = fcolor)            #
+version = Label(canvas, text = "Version: 2.2.5", bg = color, fg = fcolor)            #
 version.pack()
 fenetre.mainloop()                                                                   #
 ######################################################################################
