@@ -35,8 +35,10 @@ def get_entry():
     """ To get the string of the entry"""
     global my_string, fenetre
     my_string = entree.get()
-    fenetre.configure(background = 'green')
-    fenetre.quit()
+    if (not open_url(my_string)):
+        fenetre.configure(background = 'red')
+    else:
+        fenetre.configure(background = 'green')
 
 def onclick(Event):
     get_entry()
@@ -55,12 +57,8 @@ entree.pack(padx = 10, pady = 10)                                               
 fenetre.bind('<Return>', onclick)                                                    #
 bouton = Button(canvas, text = "Submit", command = get_entry, fg = 'grey', bg = 'black')            #
 bouton.pack()                                                                        #
-version = Label(canvas, text = "Version: 2.1.3", bg = color, fg = fcolor)            #
+version = Label(canvas, text = "Version: 2.2.0", bg = color, fg = fcolor)            #
 version.pack()
 fenetre.mainloop()                                                                   #
 ######################################################################################
 
-if (not open_url(my_string)):
-    print("There is a problem")
-else:
-    print("There is no problem")
