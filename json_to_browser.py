@@ -54,6 +54,9 @@ def get_entry():
 
 def onclick(Event):
     get_entry()
+def callback(Event):
+    Event.widget.select_range(0, 'end')
+    Event.widget.icursor('end')
 
 ##################################### Tkinter ########################################
 fenetre = Tk()                                                                       #
@@ -66,10 +69,12 @@ label = Label(canvas, text= "Paste your JSON", bg = color, fg = fcolor)         
 label.pack()                                                                         #
 entree = Entry(canvas, textvariable=string, width=20, fg = 'black', bg = 'grey')     #
 entree.pack(padx = 10, pady = 10)                                                    #
+entree.bind('<Control-KeyRelease-a>', callback)
+entree.bind('<Mod1-KeyRelease-a>', callback)
 fenetre.bind('<Return>', onclick)                                                    #
 bouton = Button(canvas, text = "Submit", command = get_entry, fg ='grey', bg='black')#
 bouton.pack()                                                                        #
-version = Label(canvas, text = "Version: 2.2.5", bg = color, fg = fcolor)            #
+version = Label(canvas, text = "Version: 2.2.6", bg = color, fg = fcolor)            #
 version.pack()
 fenetre.mainloop()                                                                   #
 ######################################################################################
