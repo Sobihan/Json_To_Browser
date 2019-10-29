@@ -45,9 +45,9 @@ def get_entry():
     global my_string, fenetre, label
     my_string = entree.get()
     if (not open_url(my_string)):
-        label.configure(fg = 'red')
+        label.configure(fg = 'red', text = "Please try again")
     else:
-        label.configure(fg = 'green')
+        label.configure(fg = 'green', text = "Paste your JSON")
     entree.delete(first = 0, last=len(my_string))
 
 def onclick(Event):
@@ -67,7 +67,7 @@ entree.pack(padx = 10, pady = 10)                                               
 fenetre.bind('<Return>', onclick)                                                    #
 bouton = Button(canvas, text = "Submit", command = get_entry, fg = 'grey', bg = 'black')            #
 bouton.pack()                                                                        #
-version = Label(canvas, text = "Version: 2.2.3", bg = color, fg = fcolor)            #
+version = Label(canvas, text = "Version: 2.2.4", bg = color, fg = fcolor)            #
 version.pack()
 fenetre.mainloop()                                                                   #
 ######################################################################################
