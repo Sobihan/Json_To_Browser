@@ -11,9 +11,18 @@ my_string = None
 color = 'black'
 fcolor = 'white'
 
+def is_json(data):
+    import json
+
+    try:
+        my_json = json.loads(data)
+    except ValueError as e:
+        return False
+    return True
+
 def open_url(content):
-    if (content == None):
-        return (False)
+    if (not is_json(content)):
+        return False
     url = []
     tmp = None
     split = content.split("\"")
@@ -58,7 +67,7 @@ entree.pack(padx = 10, pady = 10)                                               
 fenetre.bind('<Return>', onclick)                                                    #
 bouton = Button(canvas, text = "Submit", command = get_entry, fg = 'grey', bg = 'black')            #
 bouton.pack()                                                                        #
-version = Label(canvas, text = "Version: 2.2.1", bg = color, fg = fcolor)            #
+version = Label(canvas, text = "Version: 2.2.2", bg = color, fg = fcolor)            #
 version.pack()
 fenetre.mainloop()                                                                   #
 ######################################################################################
