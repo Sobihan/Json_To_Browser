@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <link href="main.css" rel="stylesheet">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript">
+        function send_py() {
+            var data = document.getElementById("data").value;
+            console.log(data);
+            eel.open_url(data); // Call a Python function
+        
+    }
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="item">
+        Paste your JSON here ! <br/>
+        <input type="text" name="json" id="data" required>
+        <input type="button" value="GO !" onclick="send_py()">
+    </div>
+</div>
+</body>
+</html>
