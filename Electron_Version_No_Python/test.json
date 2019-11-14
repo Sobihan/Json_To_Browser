@@ -1,0 +1,1120 @@
+{
+  "samples": [
+    {
+      "parsed_cps": {
+        "market": "en_US_USD",
+        "cp": {
+          "hashes": {
+            "parsed_noprice": "IK0eP/nYkla7ziSRamDDaQ==",
+            "parsed": "uqdkKANwk289ThvnYk1gjQ==",
+            "document": "uUiF4AF+zx2PTSVKWSoU4Q==",
+            "root": "uUiF4AF+zx2PTSVKWSoU4Q==",
+            "full_parsed": "i+gRQ97qXlr7pi8uRzxEeA=="
+          },
+          "url": "https://www.walmart.com/ip/Jack-Daniel-s-Old-No-7-Tennessee-Whiskey-1-75-L-80-Proof/14118968",
+          "market": "en_US_USD",
+          "manufacturer": {
+            "name": "Jack Daniel's",
+            "productref": "5412"
+          },
+          "url_de_base": "https://www.walmart.com/ip/Jack-Daniel-s-Tennessee-Whiskey-1-75-L/14118968",
+          "filter_notempty": {
+            "reason": "",
+            "originalurl": "https://www.walmart.com/ip/Jack-Daniel-s-Old-No-7-Tennessee-Whiskey-1-75-L-80-Proof/14118968",
+            "url": "https://www.walmart.com/ip/Jack-Daniel-s-Old-No-7-Tennessee-Whiskey-1-75-L-80-Proof/14118968"
+          },
+          "name": "Jack Daniel's Old No. 7 Tennessee Whiskey, 1.75 L, 80 Proof",
+          "competitorstore": "522f1084decb771a3b7c24d2",
+          "price": {
+            "c": "USD",
+            "s": {
+              "p": -22.999999999999996
+            },
+            "p": 32.98
+          },
+          "detected_page_type": "product"
+        }
+      },
+      "url": "https://www.walmart.com/ip/Jack-Daniel-s-Old-No-7-Tennessee-Whiskey-1-75-L-80-Proof/14118968",
+      "original_params": [
+        {
+          "cpbuffer_source": "upr",
+          "addedbyside": true,
+          "userproductrelationstatus": "5ab510b60dd537000d78de25",
+          "urls": [
+            "https://www.walmart.com/ip/Jack-Daniel-s-Tennessee-Whiskey-1-75-L/14118968"
+          ],
+          "addedbyroot": true,
+          "upr_status": "5ab510b60dd537000d78de25",
+          "original_queue": "requeue_uprs",
+          "product": "5a0a238cae08d4a0fb8b4ccf",
+          "store": "57d91e6fef058a004b8de627",
+          "relaunch_after_wait": true,
+          "is_root": true,
+          "is_side": true
+        },
+        {
+          "cpbuffer_source": "upr",
+          "addedbyside": true,
+          "userproductrelationstatus": "5ab510b60dd537000d78de25",
+          "urls": [
+            "https://www.walmart.com/ip/Jack-Daniel-s-Tennessee-Whiskey-1-75-L/14118968"
+          ],
+          "addedbyroot": true,
+          "upr_status": "5ab510b60dd537000d78de25",
+          "original_queue": "requeue_uprs",
+          "product": "5a0a238cae08d4a0fb8b4ccf",
+          "store": "57d91e6fef058a004b8de627",
+          "relaunch_after_wait": true,
+          "is_root": true,
+          "is_side": true
+        },
+        {
+          "cpbuffer_source": "upr",
+          "addedbyside": true,
+          "userproductrelationstatus": "5ab510b60dd537000d78de25",
+          "urls": [
+            "https://www.walmart.com/ip/Jack-Daniel-s-Tennessee-Whiskey-1-75-L/14118968"
+          ],
+          "addedbyroot": true,
+          "upr_status": "5ab510b60dd537000d78de25",
+          "original_queue": "requeue_uprs",
+          "product": "5a0a238cae08d4a0fb8b4ccf",
+          "store": "57d91e6fef058a004b8de627",
+          "relaunch_after_wait": true,
+          "is_root": true,
+          "is_side": true
+        },
+        {
+          "cpbuffer_source": "upr",
+          "addedbyside": true,
+          "userproductrelationstatus": "5ab510b60dd537000d78de25",
+          "urls": [
+            "https://www.walmart.com/ip/Jack-Daniel-s-Tennessee-Whiskey-1-75-L/14118968"
+          ],
+          "addedbyroot": true,
+          "upr_status": "5ab510b60dd537000d78de25",
+          "original_queue": "requeue_uprs",
+          "product": "5a0a238cae08d4a0fb8b4ccf",
+          "store": "57d91e6fef058a004b8de627",
+          "relaunch_after_wait": true,
+          "is_root": true,
+          "is_side": true
+        },
+        {
+          "cpbuffer_source": "upr",
+          "addedbyside": true,
+          "userproductrelationstatus": "5ab510b60dd537000d78de25",
+          "urls": [
+            "https://www.walmart.com/ip/Jack-Daniel-s-Tennessee-Whiskey-1-75-L/14118968"
+          ],
+          "addedbyroot": true,
+          "upr_status": "5ab510b60dd537000d78de25",
+          "original_queue": "requeue_uprs",
+          "product": "5a0a238cae08d4a0fb8b4ccf",
+          "store": "57d91e6fef058a004b8de627",
+          "relaunch_after_wait": true,
+          "is_root": true,
+          "is_side": true
+        },
+        {
+          "cpbuffer_source": "upr",
+          "addedbyside": true,
+          "userproductrelationstatus": "5ab510b60dd537000d78de25",
+          "urls": [
+            "https://www.walmart.com/ip/Jack-Daniel-s-Tennessee-Whiskey-1-75-L/14118968"
+          ],
+          "addedbyroot": true,
+          "upr_status": "5ab510b60dd537000d78de25",
+          "original_queue": "requeue_uprs",
+          "product": "5a0a238cae08d4a0fb8b4ccf",
+          "store": "57d91e6fef058a004b8de627",
+          "relaunch_after_wait": true,
+          "is_root": true,
+          "is_side": true
+        },
+        {
+          "cpbuffer_source": "upr",
+          "addedbyside": true,
+          "userproductrelationstatus": "5ab510b60dd537000d78de25",
+          "urls": [
+            "https://www.walmart.com/ip/Jack-Daniel-s-Tennessee-Whiskey-1-75-L/14118968"
+          ],
+          "addedbyroot": true,
+          "upr_status": "5ab510b60dd537000d78de25",
+          "original_queue": "default",
+          "product": "5a0a238cae08d4a0fb8b4ccf",
+          "store": "57d91e6fef058a004b8de627",
+          "relaunch_after_wait": true,
+          "is_root": true,
+          "is_side": true
+        }
+      ],
+      "unchanged": false,
+      "stats": {
+        "numerical": {
+          "availability_empty": 1,
+          "deliveryprice_empty": 1,
+          "images_empty": 1,
+          "price_changed": 1,
+          "price_to_negative": 1,
+          "price_negative": 1,
+          "ratings_empty": 1
+        },
+        "categorical": {
+          "prices": [
+            {
+              "c": "USD",
+              "s": {
+                "p": -22.999999999999996
+              },
+              "p": 32.98
+            }
+          ],
+          "error": null,
+          "http_status": 200,
+          "detected_page_type": "product"
+        }
+      },
+      "market": "en_US_USD",
+      "count": 1,
+      "competitorstore": "522f1084decb771a3b7c24d2",
+      "_id": "5db5e32ee389e600357968d0",
+      "cp": null
+    },
+    {
+      "parsed_cps": {
+        "market": "en_US_USD",
+        "cp": {
+          "detected_page_type": "product",
+          "url": "https://www.walmart.com/ip/Peugeot-Paris-Classic-Natural-Salt-Mill-23cm-9/49423865",
+          "market": "en_US_USD",
+          "manufacturer": {
+            "name": "Peugeot",
+            "productref": "0870422/SME"
+          },
+          "price": {
+            "c": "USD",
+            "s": {
+              "p": -23.960000000000004
+            },
+            "p": 43.95
+          },
+          "hashes": {
+            "parsed_noprice": "tkG0kp9ekSnwKhrbjqFVjw==",
+            "parsed": "gZJdQZ1e279BnpLOkKGISA==",
+            "document": "N5XTwjAUyIErkEUlrwB0CQ==",
+            "root": "N5XTwjAUyIErkEUlrwB0CQ==",
+            "full_parsed": "xiZfDGRyrh9evsJxZ7lmGA=="
+          },
+          "name": "Peugeot Paris Classic Natural Salt Mill 23cm/9\"",
+          "competitorstore": "522f1084decb771a3b7c24d2"
+        }
+      },
+      "url": "https://www.walmart.com/ip/Peugeot-Paris-Classic-Natural-Salt-Mill-23cm-9/49423865",
+      "original_params": [
+        {
+          "cpbuffer_source": "refresh"
+        }
+      ],
+      "unchanged": false,
+      "stats": {
+        "numerical": {
+          "images_to_na": 1,
+          "availability_empty": 1,
+          "deliveryprice_empty": 1,
+          "images_empty": 1,
+          "price_changed": 1,
+          "price_to_negative": 1,
+          "images_changed": 1,
+          "price_negative": 1,
+          "ratings_empty": 1
+        },
+        "categorical": {
+          "prices": [
+            {
+              "c": "USD",
+              "s": {
+                "p": -23.960000000000004
+              },
+              "p": 43.95
+            }
+          ],
+          "error": null,
+          "http_status": 200,
+          "detected_page_type": "product"
+        }
+      },
+      "market": "en_US_USD",
+      "count": 1,
+      "competitorstore": "522f1084decb771a3b7c24d2",
+      "_id": "5db5f1090b1aca00341a6ed4",
+      "cp": {
+        "images": [
+          "https://i5.walmartimages.com/asr/d30474a0-817b-4e12-b5fa-b58eb2d54c08_1.db4fb04130b73c5f08a0ae610ee0a0d7.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
+        ],
+        "hashes": {
+          "parsed_noprice": "tkG0kp9ekSnwKhrbjqFVjw==",
+          "parsed": "aGo95pnc0jsaaAojcHwl6w==",
+          "document": "bg41/fIrkrgFYhzXismuhA==",
+          "root": "bg41/fIrkrgFYhzXismuhA==",
+          "full_parsed": "ZbFms6ofiKlduWzdCZkDqA=="
+        },
+        "url": "https://www.walmart.com/ip/Peugeot-Paris-Classic-Natural-Salt-Mill-23cm-9/49423865",
+        "refresh_interval": 24,
+        "market": "en_US_USD",
+        "url_de_base": "https://www.walmart.com/ip/Peugeot-Paris-Classic-Natural-Salt-Mill-23cm-9/49423865?adid=22222222227037115776&wl1=g&wl10=113728333&wl11=online&wl12=49423865&wl13=&wl4=pla-91516162898&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+        "manufacturer": {
+          "name": "Peugeot",
+          "productref": "0870422/SME"
+        },
+        "price": {
+          "c": "USD",
+          "p": 43.95
+        },
+        "filter_notempty": {
+          "reason": "",
+          "originalurl": "https://www.walmart.com/ip/Peugeot-Paris-Classic-Natural-Salt-Mill-23cm-9/49423865?adid=22222222227037115776&wl1=g&wl10=113728333&wl11=online&wl12=49423865&wl13=&wl4=pla-91516162898&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+          "url": "https://www.walmart.com/ip/Peugeot-Paris-Classic-Natural-Salt-Mill-23cm-9/49423865?adid=22222222227037115776&wl1=g&wl10=113728333&wl11=online&wl12=49423865&wl13=&wl4=pla-91516162898&wl5=21177&wl6=&wl7=&wl8=&wl9=pla"
+        },
+        "name": "Peugeot Paris Classic Natural Salt Mill 23cm/9\"",
+        "competitorstore": "522f1084decb771a3b7c24d2",
+        "_id": "5b510922faee42005e20d9eb",
+        "detected_page_type": "product"
+      }
+    },
+    {
+      "parsed_cps": {
+        "market": "en_US_USD",
+        "cp": {
+          "detected_page_type": "product",
+          "url": "https://www.walmart.com/ip/Peugeot-Paris-u-Select-7-Inch-White-Lacquer-Salt-Mill/154691084",
+          "market": "en_US_USD",
+          "manufacturer": {
+            "name": "Peugeot",
+            "productref": "27810"
+          },
+          "price": {
+            "c": "USD",
+            "s": {
+              "p": -29.960000000000004
+            },
+            "p": 49.95
+          },
+          "hashes": {
+            "parsed_noprice": "tkUsyBzLSYN+f6fSWhPbEg==",
+            "parsed": "aoGshIue5dlYoBBMZzDRuQ==",
+            "document": "unrNmn7m0jkCpiiLKkWnYg==",
+            "root": "unrNmn7m0jkCpiiLKkWnYg==",
+            "full_parsed": "DaHsy6kp3KghVDNctrOf+w=="
+          },
+          "name": "Peugeot Paris u'Select 7 Inch White Lacquer Salt Mill",
+          "competitorstore": "522f1084decb771a3b7c24d2"
+        }
+      },
+      "url": "https://www.walmart.com/ip/Peugeot-Paris-u-Select-7-Inch-White-Lacquer-Salt-Mill/154691084",
+      "original_params": [
+        {
+          "cpbuffer_source": "refresh"
+        }
+      ],
+      "unchanged": false,
+      "stats": {
+        "numerical": {
+          "images_to_na": 1,
+          "availability_empty": 1,
+          "deliveryprice_empty": 1,
+          "images_empty": 1,
+          "price_changed": 1,
+          "price_to_negative": 1,
+          "images_changed": 1,
+          "price_negative": 1,
+          "ratings_empty": 1
+        },
+        "categorical": {
+          "prices": [
+            {
+              "c": "USD",
+              "s": {
+                "p": -29.960000000000004
+              },
+              "p": 49.95
+            }
+          ],
+          "error": null,
+          "http_status": 200,
+          "detected_page_type": "product"
+        }
+      },
+      "market": "en_US_USD",
+      "count": 1,
+      "competitorstore": "522f1084decb771a3b7c24d2",
+      "_id": "5db5ed4b0b1aca00339d9cd4",
+      "cp": {
+        "images": [
+          "https://i5.walmartimages.com/asr/1579ffb6-4a68-4bd6-a6cc-4857d0e04883_1.2ef226790ee714a16fb9f72b46283f39.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
+        ],
+        "hashes": {
+          "parsed_noprice": "tkUsyBzLSYN+f6fSWhPbEg==",
+          "parsed": "mGv0fEI1yeePt0GBo6bHqQ==",
+          "document": "+3EWPphJpUCClEv2QHw+5g==",
+          "root": "+3EWPphJpUCClEv2QHw+5g==",
+          "full_parsed": "mRp/ICXYFogGnL7mXboaGg=="
+        },
+        "url": "https://www.walmart.com/ip/Peugeot-Paris-u-Select-7-Inch-White-Lacquer-Salt-Mill/154691084",
+        "refresh_interval": 24,
+        "market": "en_US_USD",
+        "url_de_base": "https://www.walmart.com/ip/Peugeot-Paris-u-Select-7-Inch-White-Lacquer-Salt-Mill/154691084?adid=22222222227049192126&wl1=g&wl10=113146183&wl11=online&wl12=154691084&wl13=&wl4=pla-261129609075&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+        "manufacturer": {
+          "name": "Peugeot",
+          "productref": "27810"
+        },
+        "price": {
+          "c": "USD",
+          "p": 49.95
+        },
+        "filter_notempty": {
+          "reason": "",
+          "originalurl": "https://www.walmart.com/ip/Peugeot-Paris-u-Select-7-Inch-White-Lacquer-Salt-Mill/154691084?adid=22222222227049192126&wl1=g&wl10=113146183&wl11=online&wl12=154691084&wl13=&wl4=pla-261129609075&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+          "url": "https://www.walmart.com/ip/Peugeot-Paris-u-Select-7-Inch-White-Lacquer-Salt-Mill/154691084?adid=22222222227049192126&wl1=g&wl10=113146183&wl11=online&wl12=154691084&wl13=&wl4=pla-261129609075&wl5=21177&wl6=&wl7=&wl8=&wl9=pla"
+        },
+        "name": "Peugeot Paris u'Select 7 Inch White Lacquer Salt Mill",
+        "competitorstore": "522f1084decb771a3b7c24d2",
+        "_id": "5b5109238cf1b100497de0c1",
+        "detected_page_type": "product"
+      }
+    },
+    {
+      "parsed_cps": {
+        "market": "en_US_USD",
+        "cp": {
+          "detected_page_type": "product",
+          "url": "https://www.walmart.com/ip/Chatel-Wood-Salt-Mill-Walnut/188733034",
+          "market": "en_US_USD",
+          "manufacturer": {
+            "name": "Peugeot"
+          },
+          "price": {
+            "c": "USD",
+            "s": {
+              "p": -41.96000000000001
+            },
+            "p": 61.95
+          },
+          "hashes": {
+            "parsed_noprice": "E6iukUokNGAd0KvTreMsrA==",
+            "parsed": "Nb/Vkb5xQRJh6Fp20qM5VQ==",
+            "document": "uR135MdlUgetprS3yxXA5g==",
+            "root": "+u1Cyc1FoDaYX6KUR6iEfw==",
+            "full_parsed": "ohWtRdXAXnekEGrflqBu/w=="
+          },
+          "name": "Chatel Wood Salt Mill, Walnut",
+          "competitorstore": "522f1084decb771a3b7c24d2"
+        }
+      },
+      "url": "https://www.walmart.com/ip/Chatel-Wood-Salt-Mill-Walnut/188733034",
+      "original_params": [
+        {
+          "cpbuffer_source": "refresh"
+        }
+      ],
+      "unchanged": false,
+      "stats": {
+        "numerical": {
+          "images_to_na": 1,
+          "availability_empty": 1,
+          "deliveryprice_empty": 1,
+          "images_empty": 1,
+          "manufacturerreference_empty": 1,
+          "price_changed": 1,
+          "price_to_negative": 1,
+          "images_changed": 1,
+          "price_negative": 1,
+          "ratings_empty": 1
+        },
+        "categorical": {
+          "prices": [
+            {
+              "c": "USD",
+              "s": {
+                "p": -41.96000000000001
+              },
+              "p": 61.95
+            }
+          ],
+          "error": null,
+          "http_status": 200,
+          "detected_page_type": "product"
+        }
+      },
+      "market": "en_US_USD",
+      "count": 1,
+      "competitorstore": "522f1084decb771a3b7c24d2",
+      "_id": "5db5e99c1b4cde0036130f3d",
+      "cp": {
+        "images": [
+          "https://i5.walmartimages.com/asr/1b9094f2-b972-417f-90e4-02b33b013b9b_1.92be315f0ee06065adf2ac7f6e9e0f97.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
+        ],
+        "hashes": {
+          "parsed_noprice": "E6iukUokNGAd0KvTreMsrA==",
+          "parsed": "QCuDs2Yipgr07gacXJZW0g==",
+          "document": "KqyH6ka4p7sqgd1v+LYC7w==",
+          "root": "3kF8k1L66/388/vLZUpgKA==",
+          "full_parsed": "YukusHGJXFZKaWtaEmSqdw=="
+        },
+        "url": "https://www.walmart.com/ip/Chatel-Wood-Salt-Mill-Walnut/188733034",
+        "consecutive_fails": 0,
+        "refresh_interval": 24,
+        "market": "en_US_USD",
+        "url_de_base": "https://www.walmart.com/ip/Peugeot-Chatel-8-Walnut-Wood-Salt-Mill/188733034",
+        "manufacturer": {
+          "name": "Peugeot"
+        },
+        "price": {
+          "c": "USD",
+          "p": 61.95
+        },
+        "filter_notempty": {
+          "reason": "",
+          "originalurl": "https://www.walmart.com/ip/Peugeot-Chatel-8-Walnut-Wood-Salt-Mill/188733034?adid=22222222227052705386&wl1=g&wl10=113148353&wl11=online&wl12=188733034&wl13=&wl4=pla-287314029274&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+          "url": "https://www.walmart.com/ip/Peugeot-Chatel-8-Walnut-Wood-Salt-Mill/188733034?adid=22222222227052705386&wl1=g&wl10=113148353&wl11=online&wl12=188733034&wl13=&wl4=pla-287314029274&wl5=21177&wl6=&wl7=&wl8=&wl9=pla"
+        },
+        "name": "Chatel Wood Salt Mill, Walnut",
+        "competitorstore": "522f1084decb771a3b7c24d2",
+        "_id": "5b510923faee42005e20da4f",
+        "detected_page_type": "product"
+      }
+    },
+    {
+      "parsed_cps": {
+        "market": "en_US_USD",
+        "cp": {
+          "detected_page_type": "product",
+          "url": "https://www.walmart.com/ip/Strathmore-Sketch-Paper-Pad-400-Series-14-x-17-100-Sheets/28149796",
+          "market": "en_US_USD",
+          "manufacturer": {
+            "name": "Strathmore",
+            "productref": "STR455-5"
+          },
+          "url_de_base": "https://www.walmart.com/ip/Strathmore-Sketch-Pad-400-Series-60lb-14-x-17-inches-100-sheets/28149796",
+          "hashes": {
+            "parsed_noprice": "aEeqU1rbz9T/6RDadpmr/w==",
+            "parsed": "xWwDZqCaXSG+mj9l/Df2QA==",
+            "document": "TfnK9gCo94pnMmo9Rb86zg==",
+            "root": "TfnK9gCo94pnMmo9Rb86zg==",
+            "full_parsed": "dVQVZqUtBi1IhLeL1Ffqiw=="
+          },
+          "name": "Strathmore Sketch Paper Pad, 400 Series, 14\" x 17\", 100 Sheets",
+          "competitorstore": "522f1084decb771a3b7c24d2",
+          "price": {
+            "c": "USD",
+            "s": {
+              "p": -8.44
+            },
+            "p": 22.43
+          }
+        }
+      },
+      "url": "https://www.walmart.com/ip/Strathmore-Sketch-Paper-Pad-400-Series-14-x-17-100-Sheets/28149796",
+      "original_params": [
+        {
+          "cpbuffer_source": "refresh"
+        }
+      ],
+      "unchanged": false,
+      "stats": {
+        "numerical": {
+          "availability_empty": 1,
+          "deliveryprice_empty": 1,
+          "images_empty": 1,
+          "price_changed": 1,
+          "price_to_negative": 1,
+          "price_negative": 1,
+          "deprecatable": 1,
+          "redirected": 1,
+          "ratings_empty": 1
+        },
+        "categorical": {
+          "prices": [
+            {
+              "c": "USD",
+              "s": {
+                "p": -8.44
+              },
+              "p": 22.43
+            }
+          ],
+          "error": null,
+          "http_status": 200,
+          "detected_page_type": "product"
+        }
+      },
+      "market": "en_US_USD",
+      "count": 1,
+      "competitorstore": "522f1084decb771a3b7c24d2",
+      "_id": "5db667a91a643c003099e66a",
+      "cp": {
+        "images": [
+          "https://i5.walmartimages.com/asr/98b31d9a-3cc7-4ce4-bf90-5dda78be3e8a_1.c3a332cf0691ba236f259a284046b36a.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
+        ],
+        "deprecation_date": "2019-05-20T06:46:41.398000+00:00",
+        "price_preparsed": {
+          "p": 36.44,
+          "dc": "2019-05-07T10:12:05.123000+00:00",
+          "d": {
+            "p": 0
+          }
+        },
+        "hashes": {
+          "parsed_noprice": "znMio9fV3klj7N0jZmEeXA==",
+          "parsed": "BVQKHBP64CvClKYFa1iVSA==",
+          "document": "yazHMe/rBOrIM1Hsc+19jw==",
+          "root": "bvZ0BBeJmOr38UA464vb8Q==",
+          "full_parsed": "9AQcUY0NsTdRhvHa93vikw=="
+        },
+        "url": "https://www.walmart.com/ip/Strathmore-Sketch-Pad-400-Series-60lb-14-x-17-inches-100-sheets/28149796",
+        "latest": false,
+        "market": "en_US_USD",
+        "url_de_base": "https://www.walmart.com/ip/Strathmore-Sketch-Pad-400-Series-60lb-14-x-17-inches-100-sheets/28149796?adid=22222222227000000000&wl1=g&wl10=113490327&wl11=online&wl12=28149796&wl13=&wl4=pla-51320962143&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+        "price": {
+          "c": "USD",
+          "p": 16.78
+        },
+        "filter_notempty": {
+          "reason": "",
+          "originalurl": "https://www.walmart.com/ip/Strathmore-Sketch-Pad-400-Series-60lb-14-x-17-inches-100-sheets/28149796",
+          "url": "https://www.walmart.com/ip/Strathmore-Sketch-Pad-400-Series-60lb-14-x-17-inches-100-sheets/28149796"
+        },
+        "name": "Strathmore Sketch Pad - 400 Series - 60lb - 14 x 17 inches - 100 sheets",
+        "competitorstore": "522f1084decb771a3b7c24d2",
+        "_id": "5bfd2e9b0f61f900331887a8",
+        "detected_page_type": "product"
+      }
+    },
+    {
+      "parsed_cps": {
+        "market": "en_US_USD",
+        "cp": {
+          "detected_page_type": "product",
+          "url": "https://www.walmart.com/ip/Bob-Ross-Liquid-Base-Coat-Clear-8-oz/24922144",
+          "market": "en_US_USD",
+          "manufacturer": {
+            "name": "Bob Ross",
+            "productref": "R6237"
+          },
+          "price": {
+            "c": "USD",
+            "s": {
+              "p": -1.1099999999999994
+            },
+            "p": 9.09
+          },
+          "hashes": {
+            "parsed_noprice": "tktwxk8J1CRszJvPiSByqA==",
+            "parsed": "ym8jPTS++WIrQcV/wvX71A==",
+            "document": "i5248AaL+MQr1hijCA8hlQ==",
+            "root": "i5248AaL+MQr1hijCA8hlQ==",
+            "full_parsed": "eLciAzShReN4I9KDFDhBbA=="
+          },
+          "name": "Bob Ross Liquid Base Coat, Clear, 8 oz.",
+          "competitorstore": "522f1084decb771a3b7c24d2"
+        }
+      },
+      "url": "https://www.walmart.com/ip/Bob-Ross-Liquid-Base-Coat-Clear-8-oz/24922144",
+      "original_params": [
+        {
+          "cpbuffer_source": "refresh"
+        }
+      ],
+      "unchanged": false,
+      "stats": {
+        "numerical": {
+          "images_to_na": 1,
+          "availability_empty": 1,
+          "deliveryprice_empty": 1,
+          "images_empty": 1,
+          "price_changed": 1,
+          "price_to_negative": 1,
+          "images_changed": 1,
+          "price_negative": 1,
+          "deprecatable": 1,
+          "ratings_empty": 1
+        },
+        "categorical": {
+          "prices": [
+            {
+              "c": "USD",
+              "s": {
+                "p": -1.1099999999999994
+              },
+              "p": 9.09
+            }
+          ],
+          "error": null,
+          "http_status": 200,
+          "detected_page_type": "product"
+        }
+      },
+      "market": "en_US_USD",
+      "count": 1,
+      "competitorstore": "522f1084decb771a3b7c24d2",
+      "_id": "5db698f1d5d17f00335d6da3",
+      "cp": {
+        "images": [
+          "https://i5.walmartimages.com/asr/2d49792b-c4ea-43ad-8c54-8e9be07420f9_1.9ff7d7e03aad43dc1fbea19fceb90547.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
+        ],
+        "price_preparsed": {
+          "p": 9.09,
+          "dc": "2019-06-08T13:51:32.712000+00:00",
+          "d": {
+            "p": 0
+          }
+        },
+        "hashes": {
+          "parsed_noprice": "tktwxk8J1CRszJvPiSByqA==",
+          "parsed": "q8qQHYgeX/u4gw9s2l3PDA==",
+          "document": "VQmZfCTfvYs0iJdqR/Mt4Q==",
+          "root": "VQmZfCTfvYs0iJdqR/Mt4Q==",
+          "full_parsed": "ba4VY2BqkPWUUHGm9l+adg=="
+        },
+        "url": "https://www.walmart.com/ip/Bob-Ross-Liquid-Base-Coat-Clear-8-oz/24922144",
+        "market": "en_US_USD",
+        "url_de_base": "https://www.walmart.com/ip/Bob-Ross-Liquid-Base-Coat-Clear-8-oz/24922144?adid=22222222227018395571&wl1=g&wl10=125199033&wl11=online&wl12=24922144&wl13=&wl4=pla-78887613392&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+        "manufacturer": {
+          "name": "Bob Ross",
+          "productref": "R6237"
+        },
+        "price": {
+          "c": "USD",
+          "p": 9.09
+        },
+        "filter_notempty": {
+          "reason": "",
+          "originalurl": "https://www.walmart.com/ip/Bob-Ross-Liquid-Base-Coat-Clear-8-oz/24922144",
+          "url": "https://www.walmart.com/ip/Bob-Ross-Liquid-Base-Coat-Clear-8-oz/24922144"
+        },
+        "name": "Bob Ross Liquid Base Coat, Clear, 8 oz.",
+        "competitorstore": "522f1084decb771a3b7c24d2",
+        "_id": "5c2c304b06635800349ea5bf",
+        "detected_page_type": "product"
+      }
+    },
+    {
+      "parsed_cps": {
+        "market": "en_US_USD",
+        "cp": {
+          "detected_page_type": "product",
+          "url": "https://www.walmart.com/ip/Rapha-l-Precision-Brushes/859985070",
+          "market": "en_US_USD",
+          "manufacturer": {
+            "name": "Raphael",
+            "productref": "25-8938-12"
+          },
+          "url_de_base": "https://www.walmart.com/ip/Rapha-235-l-Precision-Brushes/859985070",
+          "hashes": {
+            "parsed_noprice": "83c2LajUpec52cQNHJa7WA==",
+            "parsed": "zIhI7zZ3ot5krM0XPYr9yQ==",
+            "document": "EHjh4mELrc3nTWLEZZEfVA==",
+            "root": "EHjh4mELrc3nTWLEZZEfVA==",
+            "full_parsed": "KbKqjaxaJse5hrSzHF9xNA=="
+          },
+          "name": "Rapha�l Precision Brushes",
+          "competitorstore": "522f1084decb771a3b7c24d2",
+          "price": {
+            "c": "USD",
+            "s": {
+              "p": -1.2599999999999998
+            },
+            "p": 13
+          }
+        }
+      },
+      "url": "https://www.walmart.com/ip/Rapha-l-Precision-Brushes/859985070",
+      "original_params": [
+        {
+          "cpbuffer_source": "refresh"
+        }
+      ],
+      "unchanged": false,
+      "stats": {
+        "numerical": {
+          "availability_empty": 1,
+          "deliveryprice_empty": 1,
+          "images_empty": 1,
+          "price_changed": 1,
+          "deliveryprice_to_na": 1,
+          "price_is_integer": 1,
+          "price_to_negative": 1,
+          "price_negative": 1,
+          "deprecatable": 1,
+          "redirected": 1,
+          "ratings_empty": 1
+        },
+        "categorical": {
+          "prices": [
+            {
+              "c": "USD",
+              "s": {
+                "p": -1.2599999999999998
+              },
+              "p": 13
+            }
+          ],
+          "error": null,
+          "http_status": 200,
+          "detected_page_type": "product"
+        }
+      },
+      "market": "en_US_USD",
+      "count": 1,
+      "competitorstore": "522f1084decb771a3b7c24d2",
+      "_id": "5db6a9e75ecced003637e444",
+      "cp": {
+        "images": [
+          "https://i5.walmartimages.com/asr/bf05555a-47eb-4d00-894f-c3ce13c86ae4_1.b53798b90c27994023773e759d1dfbf6.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
+        ],
+        "deprecation_date": "2019-05-22T15:36:26.621000+00:00",
+        "price_preparsed": {
+          "p": 13,
+          "dc": "2019-04-09T04:22:34.205000+00:00",
+          "d": {
+            "p": 1.3900000000000001
+          }
+        },
+        "hashes": {
+          "parsed_noprice": "0yKUJwK3OrZNXpPYKdqFpg==",
+          "parsed": "7xEkqm3qx/T6+MGvn9yY0g==",
+          "document": "79usH7fHwyzGrvPEkfmXyA==",
+          "root": "/oNxFfsKOCKkDzq20NQitA==",
+          "full_parsed": "6xlWiBe4ePpbLwgWzDBXXA=="
+        },
+        "url": "https://www.walmart.com/ip/Rapha-235-l-Precision-Brushes/859985070",
+        "latest": false,
+        "market": "en_US_USD",
+        "url_de_base": "https://www.walmart.com/ip/Raphael-Precision-Long-Handle-Brushes-Bright-12/859985070",
+        "price": {
+          "c": "USD",
+          "p": 13,
+          "d": {
+            "p": 1.3900000000000001
+          }
+        },
+        "filter_notempty": {
+          "reason": "",
+          "originalurl": "https://www.walmart.com/ip/Raphael-Precision-Long-Handle-Brushes-Bright-12/859985070",
+          "url": "https://www.walmart.com/ip/Raphael-Precision-Long-Handle-Brushes-Bright-12/859985070"
+        },
+        "name": "Raphaël Precision Brushes",
+        "competitorstore": "522f1084decb771a3b7c24d2",
+        "_id": "5c32e4895e78510035aaa7bd",
+        "detected_page_type": "product"
+      }
+    },
+    {
+      "parsed_cps": {
+        "market": "en_US_USD",
+        "cp": {
+          "price_preparsed": {
+            "p": 101.3,
+            "dc": "2019-05-07T17:16:44.739000+00:00",
+            "d": {
+              "p": 0
+            }
+          },
+          "detected_page_type": "product",
+          "url": "https://www.walmart.com/ip/Copic-Ciao-Marker-Set-36-Color-Set-E/27723805",
+          "market": "en_US_USD",
+          "manufacturer": {
+            "name": "Copic",
+            "productref": "477308"
+          },
+          "url_de_base": "https://www.walmart.com/ip/COPIC-IMAGINATION-INTERNL-I36E-CIAO-36-PIECE-SET-E/27723805",
+          "hashes": {
+            "parsed_noprice": "Kvydv3r2RHeRfBA1g+oYNA==",
+            "parsed": "xbv9sgX75QUobqe6xEG24Q==",
+            "document": "CMF/fWiAm6WOttJfuI/KkQ==",
+            "root": "CMF/fWiAm6WOttJfuI/KkQ==",
+            "full_parsed": "Sp42kBdxSW8mQFYjCNNHoA=="
+          },
+          "name": "Copic® Ciao Marker Set, 36-Color Set E",
+          "competitorstore": "522f1084decb771a3b7c24d2",
+          "price": {
+            "c": "USD",
+            "s": {
+              "p": -109.27000000000001
+            },
+            "p": 129.24
+          }
+        }
+      },
+      "url": "https://www.walmart.com/ip/Copic-Ciao-Marker-Set-36-Color-Set-E/27723805",
+      "original_params": [
+        {
+          "cpbuffer_source": "refresh"
+        }
+      ],
+      "unchanged": false,
+      "stats": {
+        "numerical": {
+          "availability_empty": 1,
+          "deliveryprice_empty": 1,
+          "images_empty": 1,
+          "price_changed": 1,
+          "price_to_negative": 1,
+          "price_negative": 1,
+          "deprecatable": 1,
+          "redirected": 1,
+          "ratings_empty": 1
+        },
+        "categorical": {
+          "prices": [
+            {
+              "c": "USD",
+              "s": {
+                "p": -109.27000000000001
+              },
+              "p": 129.24
+            }
+          ],
+          "error": null,
+          "http_status": 200,
+          "detected_page_type": "product"
+        }
+      },
+      "market": "en_US_USD",
+      "count": 1,
+      "competitorstore": "522f1084decb771a3b7c24d2",
+      "_id": "5db68b05b3a20d00346afd3b",
+      "cp": {
+        "images": [
+          "https://i5.walmartimages.com/asr/fdcae1af-2781-47a2-b8fa-7513773aa225_1.ae8effd13c2243c28b473e2033c057b1.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
+        ],
+        "deprecation_date": "2019-05-20T06:46:43.001000+00:00",
+        "price_preparsed": {
+          "p": 101.3,
+          "dc": "2019-05-07T17:16:44.739000+00:00",
+          "d": {
+            "p": 0
+          }
+        },
+        "hashes": {
+          "parsed_noprice": "T+VE29l25seSOrJDalIlzQ==",
+          "parsed": "KEmc6HN4mwXhMQ31OpIbJA==",
+          "document": "T5HnGR80W2v3PfjsmRaycg==",
+          "root": "+CjH7A5d5lFrQGYBz6pGtg==",
+          "full_parsed": "D7WTV+4vZo8BqK7ZJs2Juw=="
+        },
+        "url": "https://www.walmart.com/ip/COPIC-IMAGINATION-INTERNL-I36E-CIAO-36-PIECE-SET-E/27723805",
+        "latest": false,
+        "market": "en_US_USD",
+        "url_de_base": "https://www.walmart.com/ip/COPIC-IMAGINATION-INTERNL-I36E-CIAO-36-PIECE-SET-E/27723805?adid=22222222227000000000&wl1=g&wl10=8175035&wl11=online&wl12=27723805&wl13=&wl4=pla-51320962143&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+        "price": {
+          "c": "USD",
+          "p": 101.3
+        },
+        "filter_notempty": {
+          "reason": "",
+          "originalurl": "https://www.walmart.com/ip/COPIC-IMAGINATION-INTERNL-I36E-CIAO-36-PIECE-SET-E/27723805",
+          "url": "https://www.walmart.com/ip/COPIC-IMAGINATION-INTERNL-I36E-CIAO-36-PIECE-SET-E/27723805"
+        },
+        "name": "COPIC/IMAGINATION INTERNL I36E CIAO 36 PIECE SET E",
+        "competitorstore": "522f1084decb771a3b7c24d2",
+        "_id": "5c3c6d719788fb0032bf3eac",
+        "detected_page_type": "product"
+      }
+    },
+    {
+      "parsed_cps": {
+        "market": "en_US_USD",
+        "cp": {
+          "detected_page_type": "product",
+          "url": "https://www.walmart.com/ip/Peugeot-Paris-u-Select-7-inch-Salt-Mill-Red-Lacquer/152040468",
+          "market": "en_US_USD",
+          "manufacturer": {
+            "name": "Peugeot",
+            "productref": "23591"
+          },
+          "price": {
+            "c": "USD",
+            "s": {
+              "p": -31.960000000000004
+            },
+            "p": 51.95
+          },
+          "hashes": {
+            "parsed_noprice": "xPfOWV0ZmlvYyz1QYgteVQ==",
+            "parsed": "SGLyPKkLeLiU519PwE/k0w==",
+            "document": "xn6HOJZXi5tYLEHOSR9LRQ==",
+            "root": "xn6HOJZXi5tYLEHOSR9LRQ==",
+            "full_parsed": "hd1qdPTS+gCUbi8uGn9SpA=="
+          },
+          "name": "Peugeot Paris u'Select 7 inch Salt Mill - Red Lacquer",
+          "competitorstore": "522f1084decb771a3b7c24d2"
+        }
+      },
+      "url": "https://www.walmart.com/ip/Peugeot-Paris-u-Select-7-inch-Salt-Mill-Red-Lacquer/152040468",
+      "original_params": [
+        {
+          "cpbuffer_source": "refresh"
+        }
+      ],
+      "unchanged": false,
+      "stats": {
+        "numerical": {
+          "availability_empty": 1,
+          "deliveryprice_empty": 1,
+          "images_empty": 1,
+          "price_changed": 1,
+          "price_to_negative": 1,
+          "price_negative": 1,
+          "ratings_empty": 1
+        },
+        "categorical": {
+          "prices": [
+            {
+              "c": "USD",
+              "s": {
+                "p": -31.960000000000004
+              },
+              "p": 51.95
+            }
+          ],
+          "error": null,
+          "http_status": 200,
+          "detected_page_type": "product"
+        }
+      },
+      "market": "en_US_USD",
+      "count": 1,
+      "competitorstore": "522f1084decb771a3b7c24d2",
+      "_id": "5db62051eeaa8f003344cbc6",
+      "cp": {
+        "hashes": {
+          "parsed_noprice": "xPfOWV0ZmlvYyz1QYgteVQ==",
+          "parsed": "o9rTH7DzsHmtYJM/Kzfj3A==",
+          "document": "z76zBqn5qDkdZ0VN6eJPzw==",
+          "root": "z76zBqn5qDkdZ0VN6eJPzw==",
+          "full_parsed": "b3h8ye2SOMZ6HIRTb6Ku5g=="
+        },
+        "url": "https://www.walmart.com/ip/Peugeot-Paris-u-Select-7-inch-Salt-Mill-Red-Lacquer/152040468",
+        "refresh_interval": 24,
+        "market": "en_US_USD",
+        "url_de_base": "https://www.walmart.com/ip/Peugeot-Paris-u-Select-7-inch-Salt-Mill-Red-Lacquer/152040468?adid=22222222227052625052&wl1=g&wl10=113146183&wl11=online&wl12=152040468&wl4=pla-264168778509&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+        "manufacturer": {
+          "name": "Peugeot",
+          "productref": "23591"
+        },
+        "price": {
+          "c": "USD",
+          "p": 51.95
+        },
+        "filter_notempty": {
+          "reason": "",
+          "originalurl": "https://www.walmart.com/ip/Peugeot-Paris-u-Select-7-inch-Salt-Mill-Red-Lacquer/152040468",
+          "url": "https://www.walmart.com/ip/Peugeot-Paris-u-Select-7-inch-Salt-Mill-Red-Lacquer/152040468"
+        },
+        "name": "Peugeot Paris u'Select 7 inch Salt Mill - Red Lacquer",
+        "competitorstore": "522f1084decb771a3b7c24d2",
+        "_id": "5db1a5e0fb3f2d082141565f",
+        "detected_page_type": "product"
+      }
+    },
+    {
+      "parsed_cps": {
+        "market": "en_US_USD",
+        "cp": {
+          "detected_page_type": "product",
+          "url": "https://www.walmart.com/ip/Golden-Artist-Colors-High-Flow-Acrylic-Transparent-Paint-Set-of-10/34023567?adid=22222222227022548059&wl1=g&wl10=125210054&wl11=online&wl12=34023567&wl4=pla-83990317871&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+          "market": "en_US_USD",
+          "manufacturer": {
+            "name": "Golden Artist Colors",
+            "productref": "GD954-0"
+          },
+          "price": {
+            "c": "USD",
+            "s": {
+              "p": -25.72
+            },
+            "p": 35.69
+          },
+          "hashes": {
+            "parsed_noprice": "y4MW6ALJ59sItmYCjikTxQ==",
+            "parsed": "OzkYuOlgpmTudhV45C/7fQ==",
+            "document": "YSkBn6cOn727T5+4GBgiqw==",
+            "root": "YSkBn6cOn727T5+4GBgiqw==",
+            "full_parsed": "qMPftiDIn5VjmEWy2IckeQ=="
+          },
+          "name": "Golden Artist Colors High Flow Acrylic Transparent Paint (Set of 10)",
+          "competitorstore": "522f1084decb771a3b7c24d2"
+        }
+      },
+      "url": "https://www.walmart.com/ip/Golden-Artist-Colors-High-Flow-Acrylic-Transparent-Paint-Set-of-10/34023567?adid=22222222227022548059&wl1=g&wl10=125210054&wl11=online&wl12=34023567&wl4=pla-83990317871&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+      "original_params": [
+        {
+          "cpbuffer_source": "refresh"
+        }
+      ],
+      "unchanged": false,
+      "stats": {
+        "numerical": {
+          "availability_empty": 1,
+          "deliveryprice_empty": 1,
+          "images_empty": 1,
+          "price_changed": 1,
+          "canonical_error": 1,
+          "price_to_negative": 1,
+          "price_negative": 1,
+          "name_changed": 1,
+          "ratings_empty": 1
+        },
+        "categorical": {
+          "prices": [
+            {
+              "c": "USD",
+              "s": {
+                "p": -25.72
+              },
+              "p": 35.69
+            }
+          ],
+          "error": null,
+          "http_status": 200,
+          "detected_page_type": "product"
+        }
+      },
+      "market": "en_US_USD",
+      "count": 1,
+      "competitorstore": "522f1084decb771a3b7c24d2",
+      "_id": "5db5dde3eeaa8f002f42c072",
+      "cp": {
+        "hashes": {
+          "parsed_noprice": "PcNLsveVjiQzGMP+kRKoxA==",
+          "parsed": "XIxL02F7CdE7+hzKt3eY0g==",
+          "document": "XyxTiIFi+vOd1j9CsbgbbQ==",
+          "root": "XyxTiIFi+vOd1j9CsbgbbQ==",
+          "full_parsed": "XbaAJdGjS/DefsGiFTv71Q=="
+        },
+        "url": "https://www.walmart.com/ip/Golden-Artist-Colors-High-Flow-Acrylic-Transparent-Paint-Set-of-10/34023567?adid=22222222227022548059&wl1=g&wl10=125210054&wl11=online&wl12=34023567&wl4=pla-83990317871&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+        "market": "en_US_USD",
+        "url_de_base": "https://www.walmart.com/ip/Golden-Artist-Colors-High-Flow-Acrylic-Transparent-Paint-Set-of-10/34023567?adid=22222222227022548059&wl1=g&wl10=125210054&wl11=online&wl12=34023567&wl4=pla-83990317871&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+        "manufacturer": {
+          "name": "Golden Artist Colors",
+          "productref": "GD954-0"
+        },
+        "price": {
+          "c": "USD",
+          "p": 35.69
+        },
+        "filter_notempty": {
+          "reason": "",
+          "originalurl": "https://www.walmart.com/ip/Golden-Artist-Colors-High-Flow-Acrylic-Transparent-Paint-Set-of-10/34023567?adid=22222222227022548059&wl1=g&wl10=125210054&wl11=online&wl12=34023567&wl4=pla-83990317871&wl5=21177&wl6=&wl7=&wl8=&wl9=pla",
+          "url": "https://www.walmart.com/ip/Golden-Artist-Colors-High-Flow-Acrylic-Transparent-Paint-Set-of-10/34023567?adid=22222222227022548059&wl1=g&wl10=125210054&wl11=online&wl12=34023567&wl4=pla-83990317871&wl5=21177&wl6=&wl7=&wl8=&wl9=pla"
+        },
+        "name": "Golden 0000954-0 High Flow Acrylic 10-Color Transparent Set",
+        "competitorstore": "522f1084decb771a3b7c24d2",
+        "_id": "5db1a5e1fb3f2d081c2460f8",
+        "detected_page_type": "product"
+      }
+    }
+  ]
+}
