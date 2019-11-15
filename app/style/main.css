@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'advent-pro';
+    src: url('advent-pro/AdventPro-Bold.ttf');    
+}
+
+body {
+    background-color: #202226;
+    color:white;
+    font-family: 'advent-pro';
+    font-size: 25px;
+}
+
+.container {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#label {
+    margin-bottom: 1em;
+}
+
+#button {
+    outline: none;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #202226;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+#button:hover {
+    background:  rgba(37, 165, 91, 0.57);
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px  rgba(37, 165, 91, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(37, 165, 91, 0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+#data {
+	outline: none;
+	position:relative;	
+	background:  #202226;
+    padding: 20px;	
+	display: inline-block;
+    border-radius: 9999em;
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    border-color: white;
+    color: white;
+}
+
+#data:active {
+    outline: none;	
+    background:  rgba(37, 165, 91, 0.57);
+    -webkit-box-shadow: 0px 5px 40px -10px  rgba(37, 165, 91, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(37, 165, 91, 0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+#data.null-data {
+    border-color: red;
+}
+
+#Signature {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 14px;
+}
