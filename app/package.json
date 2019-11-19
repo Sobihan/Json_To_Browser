@@ -1,6 +1,6 @@
 {
   "name": "json_to_browser",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A prototype",
   "main": "main.js",
   "scripts": {
@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^7.1.1"
+  },
+  "dependencies": {
+    "electron-packager": "^14.1.0"
   }
 }

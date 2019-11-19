@@ -10,5 +10,9 @@ function createWindow () {
     }
   })
   win.loadFile('index.html')
+  win.on('close', (e) => {
+    win.loadFile('goodbye.html');
+    e.preventDefault();
+  })
 }
 app.on('ready', createWindow)

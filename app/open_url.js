@@ -30,6 +30,11 @@ function call_open_url() {
 
     var my_label =  document.querySelector('#label');
     my_data = document.querySelector("#data");
+    var is_soso_algo = document.querySelector('.switch > input').checked;
+
+    if (is_soso_algo == true) {
+        algo_soso();
+    } else {
     if (open_url() == false) {
         my_label.textContent = "Try again !";
         my_data.classList.add("null-data");
@@ -38,6 +43,7 @@ function call_open_url() {
         my_data.classList.remove("null-data");
     }
     return true;
+    }
 
 }
 
@@ -46,4 +52,23 @@ function handle_go_btn_events(event) {
         call_open_url();
         return false;
     }
+}
+
+function algo_soso() {
+    var my_json = document.getElementById("data").value.split('"');
+    const length = my_json.length;
+    var urls = [];
+    var tmp = null;
+
+    for (let index = 0; index < length; index = index + 1) {
+        if (my_json[index] == 'url') {
+            tmp = my_json[index + 2];
+            if (urls.includes(tmp) == false) {
+                urls.push(tmp);
+                my_electron.shell.openExternal(tmp);
+            }
+        }
+    }
+    console.log(urls);
+    console.log(urls.length);
 }
