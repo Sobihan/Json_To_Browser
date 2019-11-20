@@ -9,9 +9,9 @@ function createWindow () {
       nodeIntegration: true
     }
   })
-  win.loadFile('index.html')
+  win.loadFile('template/index.html')
   win.on('close', (e) => {
-    win.loadFile('goodbye.html');
+    win.loadFile('template/goodbye.html');
     e.preventDefault();
   })
 }

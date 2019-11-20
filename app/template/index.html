@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style/main.css" rel="stylesheet">
+        <script type="text/javascript" src="open_url.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+    <body>
+    <div class="container">
+        <div class="item">
+            <div id="label">Paste your JSON here !</div>
+    <div id="mysoso">Using soso algo</div>
+            <input type="text" name="json" id="data" placeholder="Just Here :p" required="" onkeypress="handle_go_btn_events(event)">
+        <br>
+            <label class="switch">
+                <input type="checkbox" onclick="soso();">
+                <span class="slider round"></span>
+            </label>
+        <br>
+            <input id="button" type="button" value="Open all urls !" onclick="call_open_url()">
+        </div>
+    </div>
+    <div id="Signature">
+        <p>Made with <i style="color: red;" class="fa fa-heart-o"></i> by Soso and François</p>
+    </div>
+    <style>
+        #mysoso {
+            font-family: sans-serif;
+            font-weight: normal;
+            color: red;
+            font-size: small;
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+        #mysoso.enabled {
+            opacity: 1;
+            transition: opacity 0.5s;
+        }
+    </style>  
+    <script>
+        function soso() {
+            var is_soso_algo = document.querySelector('.switch > input').checked;
+            var my_label =  document.querySelector('#mysoso');
+            if (is_soso_algo) {
+                my_label.classList.add("enabled");
+            } else {
+                my_label.classList.remove("enabled");
+            }
+        }
+    soso();
+    </script>
+    
+    
+    </body>
+</html>
