@@ -20,6 +20,7 @@ body {
 }
 
 #button {
+    margin-top: 1%;
     outline: none;
     color: #fff !important;
     text-transform: uppercase;
@@ -35,8 +36,6 @@ body {
 #button:hover {
     background:  rgba(37, 165, 91, 0.57);
     letter-spacing: 1px;
-    -webkit-box-shadow: 0px 5px 40px -10px  rgba(37, 165, 91, 0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(37, 165, 91, 0.57);
     box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0.4s ease 0s;
 }
@@ -57,8 +56,6 @@ body {
 #data:active {
     outline: none;	
     background:  rgba(37, 165, 91, 0.57);
-    -webkit-box-shadow: 0px 5px 40px -10px  rgba(37, 165, 91, 0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(37, 165, 91, 0.57);
     box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0.4s ease 0s;
 }
@@ -68,6 +65,8 @@ body {
 }
 
 #Signature {
+    padding-bottom: 0%;
+    margin-bottom: 0%;
     position: absolute;
     bottom: 8px;
     right: 16px;
@@ -76,7 +75,7 @@ body {
 /* The switch - the box around the slider */
 .switch {
     outline: none;
-    margin-top: 10%;
+    margin-top: 2%;
     position: relative;
     display: inline-block;
     width: 60px;
@@ -112,7 +111,6 @@ body {
     left: 4px;
     bottom: 4px;
     background-color: white;
-    -webkit-transition: .4s;
     transition: .4s;
   }
   

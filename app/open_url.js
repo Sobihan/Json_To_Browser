@@ -55,6 +55,7 @@ function handle_go_btn_events(event) {
 }
 
 function algo_soso() {
+    var my_label =  document.querySelector('#label');
     var my_json = document.getElementById("data").value.split('"');
     const length = my_json.length;
     var urls = [];
@@ -69,6 +70,6 @@ function algo_soso() {
             }
         }
     }
-    console.log(urls);
-    console.log(urls.length);
+    my_label.textContent = "Paste your JSON here !";
+    return true;
 }
