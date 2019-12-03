@@ -9,6 +9,6 @@ A simple program which takes a json in a parameter and open all urls.
 They are two version
 
 ### Python Version:
-TODO
+A simple prototype which uses openbrowser to open urls and tkinter to the GUI.
 ### Electron Version:
 TODO
